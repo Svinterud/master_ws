@@ -1,0 +1,9 @@
+source;share/intel_realsense/hook/pythonpath.ps1
+source;share/intel_realsense/hook/pythonpath.dsv
+source;share/intel_realsense/hook/pythonpath.sh
+source;share/intel_realsense/hook/ament_prefix_path.ps1
+source;share/intel_realsense/hook/ament_prefix_path.dsv
+source;share/intel_realsense/hook/ament_prefix_path.sh
+source;../../build/intel_realsense/share/intel_realsense/hook/pythonpath_develop.ps1
+source;../../build/intel_realsense/share/intel_realsense/hook/pythonpath_develop.dsv
+source;../../build/intel_realsense/share/intel_realsense/hook/pythonpath_develop.sh

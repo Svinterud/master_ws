@@ -1,0 +1,14 @@
+[0.900s] running develop
+[1.091s] running egg_info
+[1.092s] writing intel_realsense.egg-info/PKG-INFO
+[1.092s] writing dependency_links to intel_realsense.egg-info/dependency_links.txt
+[1.093s] writing entry points to intel_realsense.egg-info/entry_points.txt
+[1.093s] writing requirements to intel_realsense.egg-info/requires.txt
+[1.094s] writing top-level names to intel_realsense.egg-info/top_level.txt
+[1.161s] reading manifest file 'intel_realsense.egg-info/SOURCES.txt'
+[1.163s] writing manifest file 'intel_realsense.egg-info/SOURCES.txt'
+[1.166s] running build_ext
+[1.168s] Creating /home/krissso/master_ws/install/intel_realsense/lib/python3.6/site-packages/intel-realsense.egg-link (link to .)
+[1.169s] 
+[1.170s] Installed /home/krissso/master_ws/build/intel_realsense
+[1.170s] running install_data

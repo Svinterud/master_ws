@@ -1,0 +1,22 @@
+[0.730s] running develop
+[0.880s] running egg_info
+[0.880s] creating move_test.egg-info
+[0.880s] writing move_test.egg-info/PKG-INFO
+[0.881s] writing dependency_links to move_test.egg-info/dependency_links.txt
+[0.881s] writing entry points to move_test.egg-info/entry_points.txt
+[0.881s] writing requirements to move_test.egg-info/requires.txt
+[0.882s] writing top-level names to move_test.egg-info/top_level.txt
+[0.882s] writing manifest file 'move_test.egg-info/SOURCES.txt'
+[0.939s] reading manifest file 'move_test.egg-info/SOURCES.txt'
+[0.941s] writing manifest file 'move_test.egg-info/SOURCES.txt'
+[0.942s] running build_ext
+[0.943s] Creating /home/krissso/master_ws/install/move_test/lib/python3.6/site-packages/site.py
+[0.944s] Creating /home/krissso/master_ws/install/move_test/lib/python3.6/site-packages/move-test.egg-link (link to .)
+[0.945s] 
+[0.946s] Installed /home/krissso/master_ws/build/move_test
+[0.946s] running install_data
+[0.946s] creating /home/krissso/master_ws/install/move_test/share/ament_index
+[0.946s] creating /home/krissso/master_ws/install/move_test/share/ament_index/resource_index
+[0.947s] creating /home/krissso/master_ws/install/move_test/share/ament_index/resource_index/packages
+[0.947s] copying resource/move_test -> /home/krissso/master_ws/install/move_test/share/ament_index/resource_index/packages
+[0.947s] copying package.xml -> /home/krissso/master_ws/install/move_test/share/move_test

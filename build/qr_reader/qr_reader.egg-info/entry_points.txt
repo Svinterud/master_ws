@@ -1,0 +1,3 @@
+[console_scripts]
+pose_estimate = qr_reader.qr_reader:main
+

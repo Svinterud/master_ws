@@ -1,0 +1,16 @@
+[0.420s] Invoking command in '/home/krissso/master_ws/build/move_test': PYTHONPATH=/home/krissso/master_ws/install/move_test/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/move_test --editable --build-directory /home/krissso/master_ws/build/move_test/build --no-deps install_data --install-dir /home/krissso/master_ws/install/move_test
+[0.781s] running develop
+[0.949s] running egg_info
+[0.950s] writing move_test.egg-info/PKG-INFO
+[0.950s] writing dependency_links to move_test.egg-info/dependency_links.txt
+[0.951s] writing entry points to move_test.egg-info/entry_points.txt
+[0.951s] writing requirements to move_test.egg-info/requires.txt
+[0.952s] writing top-level names to move_test.egg-info/top_level.txt
+[1.013s] reading manifest file 'move_test.egg-info/SOURCES.txt'
+[1.015s] writing manifest file 'move_test.egg-info/SOURCES.txt'
+[1.017s] running build_ext
+[1.017s] Creating /home/krissso/master_ws/install/move_test/lib/python3.6/site-packages/move-test.egg-link (link to .)
+[1.019s] 
+[1.019s] Installed /home/krissso/master_ws/build/move_test
+[1.019s] running install_data
+[1.050s] Invoked command in '/home/krissso/master_ws/build/move_test' returned '0': PYTHONPATH=/home/krissso/master_ws/install/move_test/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/move_test --editable --build-directory /home/krissso/master_ws/build/move_test/build --no-deps install_data --install-dir /home/krissso/master_ws/install/move_test

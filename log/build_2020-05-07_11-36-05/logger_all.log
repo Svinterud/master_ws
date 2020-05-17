@@ -1,0 +1,392 @@
+[0.511s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.512s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd18cf5a9b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=1, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd18cf5a9b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd18cf5acf8>)
+[0.631s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.633s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/krissso/master_ws'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/intel_realsense) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/intel_realsense) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/intel_realsense) by extension 'ignore_ament_install'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/intel_realsense) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/intel_realsense) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/intel_realsense) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/intel_realsense) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/intel_realsense) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/intel_realsense) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/intel_realsense' with type 'ros.ament_python' and name 'intel_realsense'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'ignore_ament_install'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'ros'
+[0.674s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map' with type 'ros.ament_python' and name 'map'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_test) by extensions ['ignore', 'ignore_ament_install']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_test) by extension 'ignore'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_test) by extension 'ignore_ament_install'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_test) by extensions ['colcon_pkg']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_test) by extension 'colcon_pkg'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_test) by extensions ['colcon_meta']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_test) by extension 'colcon_meta'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_test) by extensions ['ros']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_test) by extension 'ros'
+[0.677s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_test' with type 'ros.ament_python' and name 'move_test'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_reader) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_reader) by extension 'ignore'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_reader) by extension 'ignore_ament_install'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_reader) by extensions ['colcon_pkg']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_reader) by extension 'colcon_pkg'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_reader) by extensions ['colcon_meta']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_reader) by extension 'colcon_meta'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_reader) by extensions ['ros']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_reader) by extension 'ros'
+[0.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qr_reader' with type 'ros.ament_python' and name 'qr_reader'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_sensors) by extension 'ignore'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_sensors) by extension 'ignore_ament_install'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_sensors) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_sensors) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_sensors) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_sensors) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_sensors) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_sensors) by extension 'ros'
+[0.682s] DEBUG:colcon.colcon_core.package_identification:Package 'src/range_sensors' with type 'ros.ament_python' and name 'range_sensors'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ros']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ros'
+[0.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization' with type 'ros.ament_cmake' and name 'visualization'
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'intel_realsense' build argument 'cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'intel_realsense' build argument 'cmake_target' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'intel_realsense' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'intel_realsense' build argument 'cmake_clean_cache' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'intel_realsense' build argument 'cmake_clean_first' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'intel_realsense' build argument 'cmake_force_configure' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'intel_realsense' build argument 'ament_cmake_args' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'intel_realsense' build argument 'catkin_cmake_args' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'intel_realsense' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.695s] DEBUG:colcon.colcon_core.verb:Building package 'intel_realsense' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krissso/master_ws/build/intel_realsense', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krissso/master_ws/install/intel_realsense', 'merge_install': False, 'path': '/home/krissso/master_ws/src/intel_realsense', 'symlink_install': True, 'test_result_base': None}
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_target' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_clean_first' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_force_configure' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'ament_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krissso/master_ws/build/map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krissso/master_ws/install/map', 'merge_install': False, 'path': '/home/krissso/master_ws/src/map', 'symlink_install': True, 'test_result_base': None}
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'move_test' build argument 'cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'move_test' build argument 'cmake_target' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'move_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'move_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'move_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'move_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'move_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'move_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'move_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] DEBUG:colcon.colcon_core.verb:Building package 'move_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krissso/master_ws/build/move_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krissso/master_ws/install/move_test', 'merge_install': False, 'path': '/home/krissso/master_ws/src/move_test', 'symlink_install': True, 'test_result_base': None}
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'qr_reader' build argument 'cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'qr_reader' build argument 'cmake_target' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'qr_reader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'qr_reader' build argument 'cmake_clean_cache' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'qr_reader' build argument 'cmake_clean_first' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'qr_reader' build argument 'cmake_force_configure' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'qr_reader' build argument 'ament_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'qr_reader' build argument 'catkin_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'qr_reader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.711s] DEBUG:colcon.colcon_core.verb:Building package 'qr_reader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krissso/master_ws/build/qr_reader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krissso/master_ws/install/qr_reader', 'merge_install': False, 'path': '/home/krissso/master_ws/src/qr_reader', 'symlink_install': True, 'test_result_base': None}
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'range_sensors' build argument 'cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'range_sensors' build argument 'cmake_target' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'range_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'range_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'range_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'range_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'range_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'range_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'range_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.716s] DEBUG:colcon.colcon_core.verb:Building package 'range_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krissso/master_ws/build/range_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krissso/master_ws/install/range_sensors', 'merge_install': False, 'path': '/home/krissso/master_ws/src/range_sensors', 'symlink_install': True, 'test_result_base': None}
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.721s] DEBUG:colcon.colcon_core.verb:Building package 'visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krissso/master_ws/build/visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krissso/master_ws/install/visualization', 'merge_install': False, 'path': '/home/krissso/master_ws/src/visualization', 'symlink_install': True, 'test_result_base': None}
+[0.722s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.724s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krissso/master_ws/src/intel_realsense' with build type 'ament_python'
+[0.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('intel_realsense', 'ament_prefix_path')
+[0.742s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/hook/ament_prefix_path.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/hook/ament_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/hook/ament_prefix_path.sh'
+[0.748s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.748s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.763s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.133s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krissso/master_ws/src/intel_realsense'
+[1.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.138s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krissso/master_ws/build/intel_realsense': PYTHONPATH=/home/krissso/master_ws/install/intel_realsense/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/intel_realsense --editable --build-directory /home/krissso/master_ws/build/intel_realsense/build --no-deps install_data --install-dir /home/krissso/master_ws/install/intel_realsense
+[1.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('intel_realsense', 'pythonpath_develop')
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/intel_realsense/share/intel_realsense/hook/pythonpath_develop.ps1'
+[1.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krissso/master_ws/build/intel_realsense' returned '0': PYTHONPATH=/home/krissso/master_ws/install/intel_realsense/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/intel_realsense --editable --build-directory /home/krissso/master_ws/build/intel_realsense/build --no-deps install_data --install-dir /home/krissso/master_ws/install/intel_realsense
+[1.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/build/intel_realsense/share/intel_realsense/hook/pythonpath_develop.dsv'
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/intel_realsense/share/intel_realsense/hook/pythonpath_develop.sh'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/intel_realsense' for CMake module files
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/intel_realsense' for CMake config files
+[1.877s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/intel_realsense/lib'
+[1.877s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/intel_realsense/bin'
+[1.877s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/intel_realsense/lib/pkgconfig/intel_realsense.pc'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/intel_realsense/lib/python3.6/site-packages'
+[1.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('intel_realsense', 'pythonpath')
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/hook/pythonpath.ps1'
+[1.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/hook/pythonpath.dsv'
+[1.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/hook/pythonpath.sh'
+[1.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(intel_realsense)
+[1.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/package.ps1'
+[1.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/package.dsv'
+[1.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/package.sh'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/package.bash'
+[1.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/intel_realsense/share/intel_realsense/package.zsh'
+[1.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krissso/master_ws/install/intel_realsense/share/colcon-core/packages/intel_realsense)
+[1.894s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krissso/master_ws/src/map' with build type 'ament_python'
+[1.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('map', 'ament_prefix_path')
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/map/share/map/hook/ament_prefix_path.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/map/share/map/hook/ament_prefix_path.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/map/share/map/hook/ament_prefix_path.sh'
+[1.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.901s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[2.302s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krissso/master_ws/src/map'
+[2.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.308s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[2.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krissso/master_ws/build/map': PYTHONPATH=/home/krissso/master_ws/install/map/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/map --editable --build-directory /home/krissso/master_ws/build/map/build --no-deps install_data --install-dir /home/krissso/master_ws/install/map
+[2.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('map', 'pythonpath_develop')
+[2.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/map/share/map/hook/pythonpath_develop.ps1'
+[2.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krissso/master_ws/build/map' returned '0': PYTHONPATH=/home/krissso/master_ws/install/map/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/map --editable --build-directory /home/krissso/master_ws/build/map/build --no-deps install_data --install-dir /home/krissso/master_ws/install/map
+[2.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/build/map/share/map/hook/pythonpath_develop.dsv'
+[2.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/map/share/map/hook/pythonpath_develop.sh'
+[2.942s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/map' for CMake module files
+[2.943s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/map' for CMake config files
+[2.944s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/map/lib'
+[2.944s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/map/bin'
+[2.944s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/map/lib/pkgconfig/map.pc'
+[2.944s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/map/lib/python3.6/site-packages'
+[2.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('map', 'pythonpath')
+[2.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/map/share/map/hook/pythonpath.ps1'
+[2.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/map/share/map/hook/pythonpath.dsv'
+[2.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/map/share/map/hook/pythonpath.sh'
+[2.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map)
+[2.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/map/share/map/package.ps1'
+[2.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krissso/master_ws/install/map/share/map/package.dsv'
+[2.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/map/share/map/package.sh'
+[2.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/map/share/map/package.bash'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/map/share/map/package.zsh'
+[2.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krissso/master_ws/install/map/share/colcon-core/packages/map)
+[2.952s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krissso/master_ws/src/move_test' with build type 'ament_python'
+[2.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_test', 'ament_prefix_path')
+[2.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/move_test/share/move_test/hook/ament_prefix_path.ps1'
+[2.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/move_test/share/move_test/hook/ament_prefix_path.dsv'
+[2.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/move_test/share/move_test/hook/ament_prefix_path.sh'
+[2.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.956s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.961s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[3.334s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krissso/master_ws/src/move_test'
+[3.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.339s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[3.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krissso/master_ws/build/move_test': PYTHONPATH=/home/krissso/master_ws/install/move_test/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/move_test --editable --build-directory /home/krissso/master_ws/build/move_test/build --no-deps install_data --install-dir /home/krissso/master_ws/install/move_test
+[3.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_test', 'pythonpath_develop')
+[3.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/move_test/share/move_test/hook/pythonpath_develop.ps1'
+[3.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krissso/master_ws/build/move_test' returned '0': PYTHONPATH=/home/krissso/master_ws/install/move_test/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/move_test --editable --build-directory /home/krissso/master_ws/build/move_test/build --no-deps install_data --install-dir /home/krissso/master_ws/install/move_test
+[3.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/build/move_test/share/move_test/hook/pythonpath_develop.dsv'
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/move_test/share/move_test/hook/pythonpath_develop.sh'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/move_test' for CMake module files
+[3.958s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/move_test' for CMake config files
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/move_test/lib'
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/move_test/bin'
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/move_test/lib/pkgconfig/move_test.pc'
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/move_test/lib/python3.6/site-packages'
+[3.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_test', 'pythonpath')
+[3.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/move_test/share/move_test/hook/pythonpath.ps1'
+[3.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/move_test/share/move_test/hook/pythonpath.dsv'
+[3.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/move_test/share/move_test/hook/pythonpath.sh'
+[3.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_test)
+[3.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/move_test/share/move_test/package.ps1'
+[3.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krissso/master_ws/install/move_test/share/move_test/package.dsv'
+[3.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/move_test/share/move_test/package.sh'
+[3.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/move_test/share/move_test/package.bash'
+[3.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/move_test/share/move_test/package.zsh'
+[3.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krissso/master_ws/install/move_test/share/colcon-core/packages/move_test)
+[3.967s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krissso/master_ws/src/qr_reader' with build type 'ament_python'
+[3.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_reader', 'ament_prefix_path')
+[3.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/qr_reader/share/qr_reader/hook/ament_prefix_path.ps1'
+[3.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/qr_reader/share/qr_reader/hook/ament_prefix_path.dsv'
+[3.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/qr_reader/share/qr_reader/hook/ament_prefix_path.sh'
+[3.970s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.970s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.980s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[4.334s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krissso/master_ws/src/qr_reader'
+[4.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.340s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[4.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krissso/master_ws/build/qr_reader': PYTHONPATH=/home/krissso/master_ws/install/qr_reader/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/qr_reader --editable --build-directory /home/krissso/master_ws/build/qr_reader/build --no-deps install_data --install-dir /home/krissso/master_ws/install/qr_reader
+[4.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_reader', 'pythonpath_develop')
+[4.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/qr_reader/share/qr_reader/hook/pythonpath_develop.ps1'
+[4.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krissso/master_ws/build/qr_reader' returned '0': PYTHONPATH=/home/krissso/master_ws/install/qr_reader/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/qr_reader --editable --build-directory /home/krissso/master_ws/build/qr_reader/build --no-deps install_data --install-dir /home/krissso/master_ws/install/qr_reader
+[4.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/build/qr_reader/share/qr_reader/hook/pythonpath_develop.dsv'
+[4.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/qr_reader/share/qr_reader/hook/pythonpath_develop.sh'
+[4.991s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/qr_reader' for CMake module files
+[4.992s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/qr_reader' for CMake config files
+[4.993s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/qr_reader/lib'
+[4.993s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/qr_reader/bin'
+[4.993s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/qr_reader/lib/pkgconfig/qr_reader.pc'
+[4.993s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/qr_reader/lib/python3.6/site-packages'
+[4.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_reader', 'pythonpath')
+[4.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/qr_reader/share/qr_reader/hook/pythonpath.ps1'
+[4.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/qr_reader/share/qr_reader/hook/pythonpath.dsv'
+[4.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/qr_reader/share/qr_reader/hook/pythonpath.sh'
+[4.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qr_reader)
+[4.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/qr_reader/share/qr_reader/package.ps1'
+[4.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krissso/master_ws/install/qr_reader/share/qr_reader/package.dsv'
+[4.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/qr_reader/share/qr_reader/package.sh'
+[5.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/qr_reader/share/qr_reader/package.bash'
+[5.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/qr_reader/share/qr_reader/package.zsh'
+[5.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krissso/master_ws/install/qr_reader/share/colcon-core/packages/qr_reader)
+[5.002s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krissso/master_ws/src/range_sensors' with build type 'ament_python'
+[5.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('range_sensors', 'ament_prefix_path')
+[5.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/range_sensors/share/range_sensors/hook/ament_prefix_path.ps1'
+[5.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/range_sensors/share/range_sensors/hook/ament_prefix_path.dsv'
+[5.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/range_sensors/share/range_sensors/hook/ament_prefix_path.sh'
+[5.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.009s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[5.395s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krissso/master_ws/src/range_sensors'
+[5.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.400s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[5.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krissso/master_ws/build/range_sensors': PYTHONPATH=/home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/range_sensors --editable --build-directory /home/krissso/master_ws/build/range_sensors/build --no-deps install_data --install-dir /home/krissso/master_ws/install/range_sensors
+[6.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('range_sensors', 'pythonpath_develop')
+[6.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/range_sensors/share/range_sensors/hook/pythonpath_develop.ps1'
+[6.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krissso/master_ws/build/range_sensors' returned '0': PYTHONPATH=/home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/range_sensors --editable --build-directory /home/krissso/master_ws/build/range_sensors/build --no-deps install_data --install-dir /home/krissso/master_ws/install/range_sensors
+[6.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/build/range_sensors/share/range_sensors/hook/pythonpath_develop.dsv'
+[6.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/build/range_sensors/share/range_sensors/hook/pythonpath_develop.sh'
+[6.022s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/range_sensors' for CMake module files
+[6.023s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/range_sensors' for CMake config files
+[6.024s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/range_sensors/lib'
+[6.024s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/range_sensors/bin'
+[6.024s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/range_sensors/lib/pkgconfig/range_sensors.pc'
+[6.024s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages'
+[6.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('range_sensors', 'pythonpath')
+[6.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/range_sensors/share/range_sensors/hook/pythonpath.ps1'
+[6.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/range_sensors/share/range_sensors/hook/pythonpath.dsv'
+[6.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/range_sensors/share/range_sensors/hook/pythonpath.sh'
+[6.027s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(range_sensors)
+[6.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/range_sensors/share/range_sensors/package.ps1'
+[6.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krissso/master_ws/install/range_sensors/share/range_sensors/package.dsv'
+[6.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/range_sensors/share/range_sensors/package.sh'
+[6.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/range_sensors/share/range_sensors/package.bash'
+[6.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/range_sensors/share/range_sensors/package.zsh'
+[6.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krissso/master_ws/install/range_sensors/share/colcon-core/packages/range_sensors)
+[6.032s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/krissso/master_ws/src/visualization' with build type 'ament_cmake'
+[6.033s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krissso/master_ws/src/visualization'
+[6.033s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.033s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.037s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[6.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krissso/master_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krissso/master_ws/install/range_sensors:/home/krissso/master_ws/install/qr_reader:/home/krissso/master_ws/install/move_test:/home/krissso/master_ws/install/intel_realsense:/opt/ros/eloquent /usr/bin/cmake --build /home/krissso/master_ws/build/visualization -- -j1 -l1
+[6.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krissso/master_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krissso/master_ws/install/range_sensors:/home/krissso/master_ws/install/qr_reader:/home/krissso/master_ws/install/move_test:/home/krissso/master_ws/install/intel_realsense:/opt/ros/eloquent /usr/bin/cmake --build /home/krissso/master_ws/build/visualization -- -j1 -l1
+[6.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krissso/master_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krissso/master_ws/install/range_sensors:/home/krissso/master_ws/install/qr_reader:/home/krissso/master_ws/install/move_test:/home/krissso/master_ws/install/intel_realsense:/opt/ros/eloquent /usr/bin/cmake --build /home/krissso/master_ws/build/visualization --target install -- -j1 -l1
+[6.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization)
+[6.342s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/visualization' for CMake module files
+[6.343s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/visualization' for CMake config files
+[6.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krissso/master_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krissso/master_ws/install/range_sensors:/home/krissso/master_ws/install/qr_reader:/home/krissso/master_ws/install/move_test:/home/krissso/master_ws/install/intel_realsense:/opt/ros/eloquent /usr/bin/cmake --build /home/krissso/master_ws/build/visualization --target install -- -j1 -l1
+[6.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'cmake_prefix_path')
+[6.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/visualization/share/visualization/hook/cmake_prefix_path.ps1'
+[6.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krissso/master_ws/install/visualization/share/visualization/hook/cmake_prefix_path.dsv'
+[6.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krissso/master_ws/install/visualization/share/visualization/hook/cmake_prefix_path.sh'
+[6.347s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/visualization/bin'
+[6.347s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/visualization/lib/pkgconfig/visualization.pc'
+[6.347s] Level 1:colcon.colcon_core.environment:checking '/home/krissso/master_ws/install/visualization/lib/python3.6/site-packages'
+[6.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/visualization/share/visualization/package.ps1'
+[6.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krissso/master_ws/install/visualization/share/visualization/package.dsv'
+[6.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/visualization/share/visualization/package.sh'
+[6.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/visualization/share/visualization/package.bash'
+[6.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/krissso/master_ws/install/visualization/share/visualization/package.zsh'
+[6.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krissso/master_ws/install/visualization/share/colcon-core/packages/visualization)
+[6.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.352s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.368s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.368s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.368s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.388s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krissso/master_ws/install/local_setup.ps1'
+[6.391s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krissso/master_ws/install/_local_setup_util_ps1.py'
+[6.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krissso/master_ws/install/setup.ps1'
+[6.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krissso/master_ws/install/local_setup.sh'
+[6.411s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krissso/master_ws/install/_local_setup_util_sh.py'
+[6.414s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krissso/master_ws/install/setup.sh'
+[6.427s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krissso/master_ws/install/local_setup.bash'
+[6.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krissso/master_ws/install/setup.bash'
+[6.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krissso/master_ws/install/local_setup.zsh'
+[6.440s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krissso/master_ws/install/setup.zsh'

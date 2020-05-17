@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+intel_realsense/__init__.py
+intel_realsense.egg-info/PKG-INFO
+intel_realsense.egg-info/SOURCES.txt
+intel_realsense.egg-info/dependency_links.txt
+intel_realsense.egg-info/entry_points.txt
+intel_realsense.egg-info/requires.txt
+intel_realsense.egg-info/top_level.txt
+intel_realsense.egg-info/zip-safe
+resource/intel_realsense

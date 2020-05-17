@@ -1,0 +1,15 @@
+[0.832s] running develop
+[1.025s] running egg_info
+[1.026s] writing map.egg-info/PKG-INFO
+[1.027s] writing dependency_links to map.egg-info/dependency_links.txt
+[1.027s] writing entry points to map.egg-info/entry_points.txt
+[1.028s] writing requirements to map.egg-info/requires.txt
+[1.028s] writing top-level names to map.egg-info/top_level.txt
+[1.090s] reading manifest file 'map.egg-info/SOURCES.txt'
+[1.091s] writing manifest file 'map.egg-info/SOURCES.txt'
+[1.094s] running build_ext
+[1.094s] Creating /home/krissso/master_ws/install/map/lib/python3.6/site-packages/map.egg-link (link to .)
+[1.096s] Installing map_pub script to /home/krissso/master_ws/install/map/lib/map
+[1.096s] 
+[1.097s] Installed /home/krissso/master_ws/build/map
+[1.097s] running install_data

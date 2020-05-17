@@ -1,0 +1,16 @@
+[0.396s] Invoking command in '/home/krissso/master_ws/build/intel_realsense': PYTHONPATH=/home/krissso/master_ws/install/intel_realsense/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/intel_realsense --editable --build-directory /home/krissso/master_ws/build/intel_realsense/build --no-deps install_data --install-dir /home/krissso/master_ws/install/intel_realsense
+[0.764s] running develop
+[0.933s] running egg_info
+[0.934s] writing intel_realsense.egg-info/PKG-INFO
+[0.934s] writing dependency_links to intel_realsense.egg-info/dependency_links.txt
+[0.935s] writing entry points to intel_realsense.egg-info/entry_points.txt
+[0.935s] writing requirements to intel_realsense.egg-info/requires.txt
+[0.936s] writing top-level names to intel_realsense.egg-info/top_level.txt
+[0.997s] reading manifest file 'intel_realsense.egg-info/SOURCES.txt'
+[0.999s] writing manifest file 'intel_realsense.egg-info/SOURCES.txt'
+[1.001s] running build_ext
+[1.002s] Creating /home/krissso/master_ws/install/intel_realsense/lib/python3.6/site-packages/intel-realsense.egg-link (link to .)
+[1.003s] 
+[1.003s] Installed /home/krissso/master_ws/build/intel_realsense
+[1.004s] running install_data
+[1.036s] Invoked command in '/home/krissso/master_ws/build/intel_realsense' returned '0': PYTHONPATH=/home/krissso/master_ws/install/intel_realsense/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/intel_realsense --editable --build-directory /home/krissso/master_ws/build/intel_realsense/build --no-deps install_data --install-dir /home/krissso/master_ws/install/intel_realsense

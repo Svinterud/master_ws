@@ -1,0 +1,22 @@
+[0.799s] running develop
+[0.953s] running egg_info
+[0.953s] creating map.egg-info
+[0.953s] writing map.egg-info/PKG-INFO
+[0.954s] writing dependency_links to map.egg-info/dependency_links.txt
+[0.954s] writing entry points to map.egg-info/entry_points.txt
+[0.954s] writing requirements to map.egg-info/requires.txt
+[0.955s] writing top-level names to map.egg-info/top_level.txt
+[0.955s] writing manifest file 'map.egg-info/SOURCES.txt'
+[1.009s] reading manifest file 'map.egg-info/SOURCES.txt'
+[1.011s] writing manifest file 'map.egg-info/SOURCES.txt'
+[1.013s] running build_ext
+[1.014s] Creating /home/krissso/master_ws/install/map/lib/python3.6/site-packages/site.py
+[1.015s] Creating /home/krissso/master_ws/install/map/lib/python3.6/site-packages/map.egg-link (link to .)
+[1.016s] 
+[1.016s] Installed /home/krissso/master_ws/build/map
+[1.016s] running install_data
+[1.017s] creating /home/krissso/master_ws/install/map/share/ament_index
+[1.017s] creating /home/krissso/master_ws/install/map/share/ament_index/resource_index
+[1.017s] creating /home/krissso/master_ws/install/map/share/ament_index/resource_index/packages
+[1.017s] copying resource/map -> /home/krissso/master_ws/install/map/share/ament_index/resource_index/packages
+[1.018s] copying package.xml -> /home/krissso/master_ws/install/map/share/map

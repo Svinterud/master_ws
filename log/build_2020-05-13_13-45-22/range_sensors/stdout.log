@@ -1,0 +1,16 @@
+[0.850s] running develop
+[1.046s] running egg_info
+[1.047s] writing range_sensors.egg-info/PKG-INFO
+[1.047s] writing dependency_links to range_sensors.egg-info/dependency_links.txt
+[1.048s] writing entry points to range_sensors.egg-info/entry_points.txt
+[1.048s] writing requirements to range_sensors.egg-info/requires.txt
+[1.049s] writing top-level names to range_sensors.egg-info/top_level.txt
+[1.115s] reading manifest file 'range_sensors.egg-info/SOURCES.txt'
+[1.127s] writing manifest file 'range_sensors.egg-info/SOURCES.txt'
+[1.130s] running build_ext
+[1.131s] Creating /home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages/range-sensors.egg-link (link to .)
+[1.132s] Installing sensor_filter script to /home/krissso/master_ws/install/range_sensors/lib/range_sensors
+[1.133s] Installing sensor_pub script to /home/krissso/master_ws/install/range_sensors/lib/range_sensors
+[1.133s] 
+[1.133s] Installed /home/krissso/master_ws/build/range_sensors
+[1.134s] running install_data

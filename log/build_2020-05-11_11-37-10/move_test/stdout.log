@@ -1,0 +1,14 @@
+[1.045s] running develop
+[1.281s] running egg_info
+[1.281s] writing move_test.egg-info/PKG-INFO
+[1.282s] writing dependency_links to move_test.egg-info/dependency_links.txt
+[1.283s] writing entry points to move_test.egg-info/entry_points.txt
+[1.284s] writing requirements to move_test.egg-info/requires.txt
+[1.284s] writing top-level names to move_test.egg-info/top_level.txt
+[1.369s] reading manifest file 'move_test.egg-info/SOURCES.txt'
+[1.371s] writing manifest file 'move_test.egg-info/SOURCES.txt'
+[1.374s] running build_ext
+[1.375s] Creating /home/krissso/master_ws/install/move_test/lib/python3.6/site-packages/move-test.egg-link (link to .)
+[1.377s] 
+[1.378s] Installed /home/krissso/master_ws/build/move_test
+[1.378s] running install_data

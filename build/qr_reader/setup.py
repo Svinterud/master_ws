@@ -1,0 +1,1 @@
+/home/krissso/master_ws/src/qr_reader/setup.py

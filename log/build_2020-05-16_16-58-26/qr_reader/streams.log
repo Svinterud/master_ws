@@ -1,0 +1,17 @@
+[0.396s] Invoking command in '/home/krissso/master_ws/build/qr_reader': PYTHONPATH=/home/krissso/master_ws/install/qr_reader/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/qr_reader --editable --build-directory /home/krissso/master_ws/build/qr_reader/build --no-deps install_data --install-dir /home/krissso/master_ws/install/qr_reader
+[0.749s] running develop
+[0.909s] running egg_info
+[0.910s] writing qr_reader.egg-info/PKG-INFO
+[0.910s] writing dependency_links to qr_reader.egg-info/dependency_links.txt
+[0.911s] writing entry points to qr_reader.egg-info/entry_points.txt
+[0.911s] writing requirements to qr_reader.egg-info/requires.txt
+[0.912s] writing top-level names to qr_reader.egg-info/top_level.txt
+[0.971s] reading manifest file 'qr_reader.egg-info/SOURCES.txt'
+[0.973s] writing manifest file 'qr_reader.egg-info/SOURCES.txt'
+[0.975s] running build_ext
+[0.976s] Creating /home/krissso/master_ws/install/qr_reader/lib/python3.6/site-packages/qr-reader.egg-link (link to .)
+[0.978s] Installing pose_estimate script to /home/krissso/master_ws/install/qr_reader/lib/qr_reader
+[0.978s] 
+[0.978s] Installed /home/krissso/master_ws/build/qr_reader
+[0.979s] running install_data
+[1.014s] Invoked command in '/home/krissso/master_ws/build/qr_reader' returned '0': PYTHONPATH=/home/krissso/master_ws/install/qr_reader/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/qr_reader --editable --build-directory /home/krissso/master_ws/build/qr_reader/build --no-deps install_data --install-dir /home/krissso/master_ws/install/qr_reader

@@ -1,0 +1,6 @@
+[console_scripts]
+laser_to_pointcloud = range_sensors.laserTopointcloud:main
+point_cloud = range_sensors.poitcloud_range:main
+sensor_filter = range_sensors.filter:main
+sensor_pub = range_sensors.range_sensors:main
+

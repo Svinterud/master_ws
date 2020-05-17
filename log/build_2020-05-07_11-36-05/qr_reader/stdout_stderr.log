@@ -1,0 +1,15 @@
+[0.767s] running develop
+[0.921s] running egg_info
+[0.921s] writing qr_reader.egg-info/PKG-INFO
+[0.922s] writing dependency_links to qr_reader.egg-info/dependency_links.txt
+[0.922s] writing entry points to qr_reader.egg-info/entry_points.txt
+[0.923s] writing requirements to qr_reader.egg-info/requires.txt
+[0.923s] writing top-level names to qr_reader.egg-info/top_level.txt
+[0.976s] reading manifest file 'qr_reader.egg-info/SOURCES.txt'
+[0.981s] writing manifest file 'qr_reader.egg-info/SOURCES.txt'
+[0.984s] running build_ext
+[0.986s] Creating /home/krissso/master_ws/install/qr_reader/lib/python3.6/site-packages/qr-reader.egg-link (link to .)
+[0.987s] Installing pose_estimate script to /home/krissso/master_ws/install/qr_reader/lib/qr_reader
+[0.988s] 
+[0.988s] Installed /home/krissso/master_ws/build/qr_reader
+[0.988s] running install_data

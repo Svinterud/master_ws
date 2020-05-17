@@ -1,0 +1,9 @@
+source;share/range_sensors/hook/pythonpath.ps1
+source;share/range_sensors/hook/pythonpath.dsv
+source;share/range_sensors/hook/pythonpath.sh
+source;share/range_sensors/hook/ament_prefix_path.ps1
+source;share/range_sensors/hook/ament_prefix_path.dsv
+source;share/range_sensors/hook/ament_prefix_path.sh
+source;../../build/range_sensors/share/range_sensors/hook/pythonpath_develop.ps1
+source;../../build/range_sensors/share/range_sensors/hook/pythonpath_develop.dsv
+source;../../build/range_sensors/share/range_sensors/hook/pythonpath_develop.sh

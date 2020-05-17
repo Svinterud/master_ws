@@ -1,0 +1,22 @@
+[0.828s] running develop
+[1.000s] running egg_info
+[1.000s] creating intel_realsense.egg-info
+[1.000s] writing intel_realsense.egg-info/PKG-INFO
+[1.001s] writing dependency_links to intel_realsense.egg-info/dependency_links.txt
+[1.001s] writing entry points to intel_realsense.egg-info/entry_points.txt
+[1.001s] writing requirements to intel_realsense.egg-info/requires.txt
+[1.002s] writing top-level names to intel_realsense.egg-info/top_level.txt
+[1.002s] writing manifest file 'intel_realsense.egg-info/SOURCES.txt'
+[1.119s] reading manifest file 'intel_realsense.egg-info/SOURCES.txt'
+[1.120s] writing manifest file 'intel_realsense.egg-info/SOURCES.txt'
+[1.124s] running build_ext
+[1.125s] Creating /home/krissso/master_ws/install/intel_realsense/lib/python3.6/site-packages/site.py
+[1.126s] Creating /home/krissso/master_ws/install/intel_realsense/lib/python3.6/site-packages/intel-realsense.egg-link (link to .)
+[1.128s] 
+[1.128s] Installed /home/krissso/master_ws/build/intel_realsense
+[1.128s] running install_data
+[1.128s] creating /home/krissso/master_ws/install/intel_realsense/share/ament_index
+[1.129s] creating /home/krissso/master_ws/install/intel_realsense/share/ament_index/resource_index
+[1.129s] creating /home/krissso/master_ws/install/intel_realsense/share/ament_index/resource_index/packages
+[1.129s] copying resource/intel_realsense -> /home/krissso/master_ws/install/intel_realsense/share/ament_index/resource_index/packages
+[1.129s] copying package.xml -> /home/krissso/master_ws/install/intel_realsense/share/intel_realsense

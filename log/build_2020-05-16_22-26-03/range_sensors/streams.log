@@ -1,0 +1,20 @@
+[0.547s] Invoking command in '/home/krissso/master_ws/build/range_sensors': PYTHONPATH=/home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/range_sensors --editable --build-directory /home/krissso/master_ws/build/range_sensors/build --no-deps install_data --install-dir /home/krissso/master_ws/install/range_sensors
+[0.981s] running develop
+[1.186s] running egg_info
+[1.186s] writing range_sensors.egg-info/PKG-INFO
+[1.187s] writing dependency_links to range_sensors.egg-info/dependency_links.txt
+[1.188s] writing entry points to range_sensors.egg-info/entry_points.txt
+[1.188s] writing requirements to range_sensors.egg-info/requires.txt
+[1.188s] writing top-level names to range_sensors.egg-info/top_level.txt
+[1.249s] reading manifest file 'range_sensors.egg-info/SOURCES.txt'
+[1.251s] writing manifest file 'range_sensors.egg-info/SOURCES.txt'
+[1.258s] running build_ext
+[1.260s] Creating /home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages/range-sensors.egg-link (link to .)
+[1.262s] Installing laser_to_pointcloud script to /home/krissso/master_ws/install/range_sensors/lib/range_sensors
+[1.262s] Installing point_cloud script to /home/krissso/master_ws/install/range_sensors/lib/range_sensors
+[1.263s] Installing sensor_filter script to /home/krissso/master_ws/install/range_sensors/lib/range_sensors
+[1.263s] Installing sensor_pub script to /home/krissso/master_ws/install/range_sensors/lib/range_sensors
+[1.264s] 
+[1.264s] Installed /home/krissso/master_ws/build/range_sensors
+[1.264s] running install_data
+[1.295s] Invoked command in '/home/krissso/master_ws/build/range_sensors' returned '0': PYTHONPATH=/home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/range_sensors --editable --build-directory /home/krissso/master_ws/build/range_sensors/build --no-deps install_data --install-dir /home/krissso/master_ws/install/range_sensors

@@ -1,0 +1,4 @@
+[0.030s] Invoking command in '/home/krissso/master_ws/build/visualization': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/krissso/master_ws/build/visualization -- -j1 -l1
+[0.145s] Invoked command in '/home/krissso/master_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/krissso/master_ws/build/visualization -- -j1 -l1
+[0.191s] Invoking command in '/home/krissso/master_ws/build/visualization': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/krissso/master_ws/build/visualization --target install -- -j1 -l1
+[0.319s] Invoked command in '/home/krissso/master_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/krissso/master_ws/build/visualization --target install -- -j1 -l1

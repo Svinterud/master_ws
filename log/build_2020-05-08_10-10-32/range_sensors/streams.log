@@ -1,0 +1,17 @@
+[1.156s] Invoking command in '/home/krissso/master_ws/build/range_sensors': PYTHONPATH=/home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/range_sensors --editable --build-directory /home/krissso/master_ws/build/range_sensors/build --no-deps install_data --install-dir /home/krissso/master_ws/install/range_sensors
+[2.211s] running develop
+[2.688s] running egg_info
+[2.689s] writing range_sensors.egg-info/PKG-INFO
+[2.691s] writing dependency_links to range_sensors.egg-info/dependency_links.txt
+[2.692s] writing entry points to range_sensors.egg-info/entry_points.txt
+[2.694s] writing requirements to range_sensors.egg-info/requires.txt
+[2.695s] writing top-level names to range_sensors.egg-info/top_level.txt
+[2.850s] reading manifest file 'range_sensors.egg-info/SOURCES.txt'
+[2.854s] writing manifest file 'range_sensors.egg-info/SOURCES.txt'
+[2.862s] running build_ext
+[2.863s] Creating /home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages/range-sensors.egg-link (link to .)
+[2.866s] Installing sensor_pub script to /home/krissso/master_ws/install/range_sensors/lib/range_sensors
+[2.867s] 
+[2.868s] Installed /home/krissso/master_ws/build/range_sensors
+[2.870s] running install_data
+[2.959s] Invoked command in '/home/krissso/master_ws/build/range_sensors' returned '0': PYTHONPATH=/home/krissso/master_ws/install/range_sensors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/range_sensors --editable --build-directory /home/krissso/master_ws/build/range_sensors/build --no-deps install_data --install-dir /home/krissso/master_ws/install/range_sensors

@@ -1,0 +1,22 @@
+[0.260s] [36mInstall the project...[0m
+[0.272s] -- Install configuration: ""
+[0.273s] -- Execute custom install script
+[0.274s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/config/model.rviz
+[0.275s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/urdf/test.urdf
+[0.276s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/launch/test.launch.py
+[0.276s] -- Symlinking: /home/krissso/master_ws/install/visualization/share/visualization/launch/test2.launch.py
+[0.289s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/ament_index/resource_index/package_run_dependencies/visualization
+[0.290s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/ament_index/resource_index/parent_prefix_path/visualization
+[0.290s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/environment/ament_prefix_path.sh
+[0.291s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/environment/ament_prefix_path.dsv
+[0.292s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/environment/path.sh
+[0.292s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/environment/path.dsv
+[0.293s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/local_setup.bash
+[0.293s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/local_setup.sh
+[0.294s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/local_setup.zsh
+[0.295s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/local_setup.dsv
+[0.295s] -- Symlinking: /home/krissso/master_ws/install/visualization/share/visualization/package.dsv
+[0.308s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/ament_index/resource_index/packages/visualization
+[0.309s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/cmake/visualizationConfig.cmake
+[0.309s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/cmake/visualizationConfig-version.cmake
+[0.310s] -- Up-to-date symlink: /home/krissso/master_ws/install/visualization/share/visualization/package.xml

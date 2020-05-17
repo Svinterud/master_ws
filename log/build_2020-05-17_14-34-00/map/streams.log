@@ -1,0 +1,17 @@
+[0.458s] Invoking command in '/home/krissso/master_ws/build/map': PYTHONPATH=/home/krissso/master_ws/install/map/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/map --editable --build-directory /home/krissso/master_ws/build/map/build --no-deps install_data --install-dir /home/krissso/master_ws/install/map
+[0.866s] running develop
+[1.054s] running egg_info
+[1.054s] writing map.egg-info/PKG-INFO
+[1.055s] writing dependency_links to map.egg-info/dependency_links.txt
+[1.056s] writing entry points to map.egg-info/entry_points.txt
+[1.056s] writing requirements to map.egg-info/requires.txt
+[1.056s] writing top-level names to map.egg-info/top_level.txt
+[1.122s] reading manifest file 'map.egg-info/SOURCES.txt'
+[1.124s] writing manifest file 'map.egg-info/SOURCES.txt'
+[1.126s] running build_ext
+[1.127s] Creating /home/krissso/master_ws/install/map/lib/python3.6/site-packages/map.egg-link (link to .)
+[1.129s] Installing map_pub script to /home/krissso/master_ws/install/map/lib/map
+[1.129s] 
+[1.129s] Installed /home/krissso/master_ws/build/map
+[1.130s] running install_data
+[1.164s] Invoked command in '/home/krissso/master_ws/build/map' returned '0': PYTHONPATH=/home/krissso/master_ws/install/map/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/krissso/master_ws/install/map --editable --build-directory /home/krissso/master_ws/build/map/build --no-deps install_data --install-dir /home/krissso/master_ws/install/map
